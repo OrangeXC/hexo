@@ -320,8 +320,6 @@ export function todoListReducer (state = [], action) {
 
 一边看界面一边看控制台 redux store 的变化吧！代码没有晦涩难懂的点，一个 todoList 也足以说明列表操作的流程，这也是各大框架都以 todoList 为 demo 的原因。
 
-> 最后给出 Github 地址：https://github.com/OrangeXC/react-redux-starter
-
 ## 总结
 
 对于复杂的应用 redux 带来的优势不赘述，本文的目的是讲述如何快速开发 react + redux 应用，让大家在配置环境上少踩坑，也通过一个简单的例子，说明我们应该怎么更简单的去使用 redux。动手写起来吧，橙子的文章一般都看不出效果的，亲手实现一遍会有意外收获哦，上面代码也是橙子自己踩过坑后写出来的，各大神有什么建议的地方尽管提出来！感谢阅读。
