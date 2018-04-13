@@ -8,7 +8,7 @@ tags: ['CSS3', 'JavaScript']
 ![](/uploads/3D 视差效果.gif)
 -->
 
-![](https://i.loli.net/2017/11/06/59ffd0fd1fcc6.gif)
+![](https://wx1.sinaimg.cn/mw690/0060lm7Tly1fqas5y0wiag30ga0dzk7s.gif)
 
 前一周敢玩新版PC端上线，其中原创视频封面用的就是上图的效果，下面详细说一下怎么实现
 
@@ -18,7 +18,7 @@ tags: ['CSS3', 'JavaScript']
 
 这个效果有着相对较好的用户体验，在 hover 的基础上又有了与用户交互的体验，仿佛用户一直在不同角度按压这张图片。
 
-当然这个效果早就有人在写并用于官网了，感兴趣可以去[锤子官网](http://www.smartisan.com/)，看下轮播图的鼠标交互效果。
+当然这个效果早就有人在写并用于官网了，感兴趣可以去[锤子官网](https://www.smartisan.com/)，看下轮播图的鼠标交互效果。
 
 ## 基本思路
 
@@ -51,7 +51,7 @@ css:
   height: 300px;
   margin: 50px auto;
 
-  background: url('http://7xr2s7.com1.z0.glb.clouddn.com/avatar.jpg');
+  background: url('https://ww1.sinaimg.cn/large/005Yd2Thly1fl8hsldx4tj30hs0hsgnq.jpg');
   background-size: contain;
 
   transition: all .3s linear;
@@ -107,12 +107,12 @@ let mouseY = e.pageY - scrollTop - thisPY  //减去滚动高度
 
 我自己的代码放在了 codepen，如下
 
-<p data-height="500" data-theme-id="dark" data-slug-hash="VmgoVX" data-default-tab="js,result" data-user="orangexc" data-embed-version="2" data-pen-title="3D parallax effect" class="codepen">See the Pen <a href="https://codepen.io/orangexc/pen/VmgoVX/">3D parallax effect</a> by orangexc (<a href="http://codepen.io/orangexc">@orangexc</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="500" data-theme-id="dark" data-slug-hash="VmgoVX" data-default-tab="js,result" data-user="orangexc" data-embed-version="2" data-pen-title="3D parallax effect" class="codepen">See the Pen <a href="https://codepen.io/orangexc/pen/VmgoVX/">3D parallax effect</a> by orangexc (<a href="https://codepen.io/orangexc">@orangexc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 另外最近发现在 codepen 上的一个项目，在热门榜单上，基本思路是一样的只不过换了种方式去写，很不错的例子，对于需要多个元素循环绑定的情况很好用。
 
-<p data-height="265" data-theme-id="dark" data-slug-hash="aBPRaX" data-default-tab="js,result" data-user="PavelDoGreat" data-embed-version="2" data-pen-title="Interactive Floating Panels" class="codepen">See the Pen <a href="https://codepen.io/PavelDoGreat/pen/aBPRaX/">Interactive Floating Panels</a> by Pavel Dobryakov (<a href="http://codepen.io/PavelDoGreat">@PavelDoGreat</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="265" data-theme-id="dark" data-slug-hash="aBPRaX" data-default-tab="js,result" data-user="PavelDoGreat" data-embed-version="2" data-pen-title="Interactive Floating Panels" class="codepen">See the Pen <a href="https://codepen.io/PavelDoGreat/pen/aBPRaX/">Interactive Floating Panels</a> by Pavel Dobryakov (<a href="https://codepen.io/PavelDoGreat">@PavelDoGreat</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 > 注：此种方法规避了高度差计算的问题，因为是基于 offsetX（作用元素的偏移量），**推荐使用**
 
