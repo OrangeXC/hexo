@@ -4,9 +4,15 @@ date: 2018-05-10 12:22:47
 tags: ['Angular', 'SSR']
 ---
 
+<!--
+![](/uploads/Angular6 服务端渲染之 udao 终章.png)
+-->
+
 ![](https://ww1.sinaimg.cn/large/005Yd2Thly1fr64sebe48j31z40zyqdc.jpg)
 
-先介绍下老朋友 **udao**，首先是一个开源项目，代码足够简单，其次是跟随 Angular 大小版本一起成长的项目，会定期更新所有依赖包以及兼容最新版本的写法
+<!--more-->
+
+先介绍下小朋友 **udao**，首先是一个开源项目，代码足够简单，其次是跟随 Angular 大小版本一起成长的项目，会定期更新所有依赖包以及兼容最新版本的写法
 
 Github 地址也贴出来好多次了：[https://github.com/OrangeXC/udao](https://github.com/OrangeXC/udao)
 
