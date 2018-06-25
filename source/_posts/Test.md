@@ -1,8 +1,16 @@
 ---
-title: 让前端测试简单高效
+title: 浅谈前端测试
 date: 2018-06-23 18:50:56
 tags: ['Test']
 ---
+
+<!--
+![](/uploads/浅谈前端测试.jpg)
+-->
+
+![](https://ws1.sinaimg.cn/large/005Yd2Thly1fsnhpyxpa2j30zk0hwtai.jpg)
+
+<!--more-->
 
 前端测试或许被好多人误解，也许大家更加倾向于编写面向后端的测试，逻辑性强，测试方便等
 
