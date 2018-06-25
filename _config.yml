@@ -80,30 +80,6 @@ search:
   format: html
   limit: 10000
 
-#minifier
-js_concator:
-  enable: true
-  bundle_path: '/js/bundle.js'
-  front: false
-
-html_minifier:
-  enable: true
-  ignore_error: false
-  exclude:
-
-css_minifier:
-  enable: false
-  exclude:
-    - '*.min.css'
-
-image_minifier:
-  enable: false
-  interlaced: false
-  multipass: false
-  optimizationLevel: 2
-  pngquant: false
-  progressive: false
-
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
