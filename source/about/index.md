@@ -13,11 +13,7 @@ Hello! 大家好，我是 orange，在各个技术社区叫 orangexc（因为 or
 
 前一版本的 blog 有微信二维码的页面，这边放在这里，欢迎技术交流
 
-<!--
-![扫一扫加我](/uploads/weixin.jpg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9jwj941ej30by0byaau.jpg)
+![扫一扫加我](/uploads/@wechat-qrcode.jpg)
 
 ## 特别声明
 

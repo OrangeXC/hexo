@@ -147,7 +147,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://ww1.sinaimg.cn/large/005Yd2Thly1fl8hsldx4tj30hs0hsgnq.jpg
+avatar: /uploads/@avatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:

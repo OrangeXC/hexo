@@ -4,11 +4,7 @@ date: 2018-06-23 18:50:56
 tags: ['Test']
 ---
 
-<!--
-![](/uploads/浅谈前端测试.jpg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fsnhpyxpa2j30zk0hwtai.jpg)
+![](/uploads/front-end-test1.jpg)
 
 <!--more-->
 

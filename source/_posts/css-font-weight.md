@@ -4,11 +4,7 @@ date: 2016-12-13 12:14:18
 tags: CSS
 ---
 
-<!--
-![](/uploads/font-weight 无效问题1.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kknc3udj312o070gm9.jpg)
+![](/uploads/css-font-weight1.png)
 
 近期调页面时有几个 font-weight 需要修改，无论怎么调整字体粗细都没有变化，深入研究后总结下文
 
@@ -41,11 +37,7 @@ p.thick {
 
 在 Mac OS 下 Chrome、Firefox、Safari 结果分别如下(从左到右)
 
-<!--
-![](/uploads/font-weight 无效问题2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kknfvlcj312i07ytav.jpg)
+![](/uploads/css-font-weight2.png)
 
 我的浏览器均为最新版本，发现一个简单的 `font-weight` 属性，在三个浏览器有三个表现。
 
@@ -75,11 +67,7 @@ p.thick {
 
 效果如下
 
-<!--
-![](/uploads/font-weight 无效问题3.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kkni4rej312i07yjtd.jpg)
+![](/uploads/css-font-weight3.png)
 
 这里的表现倒是一样的，我们可以忽略图中字体大小（截屏的误差导致），只看字体粗细就好，`font-weight: 100;` 都失效了。
 
@@ -116,11 +104,7 @@ p.thick {
 
 看下三个浏览器的表现
 
-<!--
-![](/uploads/font-weight 无效问题4.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kknc3g9j312i08gdhx.jpg)
+![](/uploads/css-font-weight4.png)
 
 在字体和字重上达到了完全一致，仔细的观察会发现，Chrome 与 Safari 渲染不同字重的字体总宽度变化明显，而 Firefox 下则不是十分明显
 

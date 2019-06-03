@@ -4,11 +4,7 @@ date: 2017-10-19 17:04:13
 tags: ['Next', 'React', 'SSR']
 ---
 
-<!--
-![](/uploads/React 服务端渲染框架 Next.js 基于 Gank api 实战.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9klmtjhnj30kn0b3dg8.jpg)
+![](/uploads/nextjs-gank1.png)
 
 <!--more-->
 

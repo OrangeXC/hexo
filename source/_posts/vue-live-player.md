@@ -4,11 +4,7 @@ date: 2016-11-14 10:06:05
 tags: ['Vue', 'Live']
 ---
 
-<!--
-![](/uploads/基于 Vue 的直播播放器实战.jpeg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9jxqp4v6j31so0l8n2a.jpg)
+![](/uploads/vue-live-player1.jpeg)
 
 <!--more-->
 

@@ -4,11 +4,7 @@ date: 2016-12-27 10:09:36
 tags: ['Vue', 'SSR', 'Nuxt']
 ---
 
-<!--
-![](/uploads/Vue 基于 NUXT 的 SSR1.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9ko1me3tj30zz0h4aao.jpg)
+![](/uploads/vue-nuxt-ssr1.png)
 
 <!--more-->
 
@@ -53,11 +49,7 @@ tags: ['Vue', 'SSR', 'Nuxt']
 
 vue 官网给出了 SSR 原理图片
 
-<!--
-![](/uploads/Vue 基于 NUXT 的 SSR2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9ko1nf2yj30zz0il0xb.jpg)
+![](/uploads/vue-nuxt-ssr2.png)
 
 对于这幅图的原理官网有详细解释，此类文章也很多，这里不赘述。
 
@@ -99,11 +91,7 @@ npm run dev
 
 完成上面命令后你的目录结构会如下
 
-<!--
-![](/uploads/Vue 基于 NUXT 的 SSR3.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9ko1mio3j30cq0ws0tp.jpg)
+![](/uploads/vue-nuxt-ssr3.png)
 
 Nuxt.js 给出了最简单的目录结构
 
@@ -117,11 +105,7 @@ Nuxt.js 给出了最简单的目录结构
 
 文件的路径建议都采用绝对路径，表格如下
 
-<!--
-![](/uploads/Vue 基于 NUXT 的 SSR4.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9ko1n4zjj315q0kijt9.jpg)
+![](/uploads/vue-nuxt-ssr4.png)
 
 例：怎么在 `/pages/user/me.vue` 引入一个 `static` 文件夹里的图片
 

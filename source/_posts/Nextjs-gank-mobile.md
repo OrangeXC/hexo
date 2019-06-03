@@ -4,11 +4,7 @@ date: 2017-11-14 17:35:45
 tags: ['Next', 'React', 'SSR']
 ---
 
-<!--
-![](/uploads/React 服务端渲染实现 Gank 移动端.jpg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1flipe2lhwkj31cw0oragw.jpg)
+![](/uploads/nextjs-gank-mobile1.jpg)
 
 Github: https://github.com/OrangeXC/gank
 

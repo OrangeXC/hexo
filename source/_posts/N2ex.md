@@ -4,11 +4,7 @@ date: 2017-06-19 10:57:48
 tags: ['Vue', 'SSR', 'Nuxt']
 ---
 
-<!--
-![](/uploads/用 Nuxt 开发部署一个 v2ex.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9jxqn70jj30xc0hr76g.jpg)
+![](/uploads/n2ex1.png)
 
 <!-- more -->
 

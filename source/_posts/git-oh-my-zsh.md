@@ -4,11 +4,7 @@ date: 2016-10-11 10:03:28
 tags: Git
 ---
 
-<!--
-![](/uploads/oh-my-zsh.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9klmuj8tj32080gcq62.jpg)
+![](/uploads/git-oh-my-zsh1.png)
 
 本篇文章介绍 Oh-My-Zsh 安装，以及 git 快捷键。也许你已经烦透了每天 `git add .` `git commit -m 'some fix'` `git push`...
 

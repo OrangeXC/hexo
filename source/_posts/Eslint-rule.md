@@ -4,11 +4,7 @@ date: 2018-09-29 17:22:32
 tags: ['eslint']
 ---
 
-<!--
-![](/uploads/自定义 eslint 规则1.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fvrkmmkhtij30oo0c7gm5.jpg)
+![](/uploads/eslint-rule1.png)
 
 <!--more-->
 
@@ -166,19 +162,11 @@ const bar = {
 
 点进去别着急复制代码查看 AST 结果，首先选择 espree（eslint 使用的语法解析库），如下
 
-<!--
-![](/uploads/自定义 eslint 规则2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fvrknhpv3uj30oc0g9jt1.jpg)
+![](/uploads/eslint-rule2.png)
 
 这短短的四行代码会对应着一个抽象语法树，如下图：
 
-<!--
-![](/uploads/自定义 eslint 规则3.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fvrknhsx3tj30gn0cwjse.jpg)
+![](/uploads/eslint-rule3.png)
 
 由于全展开太长了哈，感兴趣的自行尝试，会发现层级嵌套的特别深，找到 `bar` 的属性需要 `Program.body[0].declarations[0].init.properties`
 
@@ -213,11 +201,7 @@ module.exports = {
 
 这里可以使用 `VariableDeclarator` 类型作为检察目标，从下面的解析树可以分析出筛选条件
 
-<!--
-![](/uploads/自定义 eslint 规则4.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fvrknhqu32j30dn0fidh9.jpg)
+![](/uploads/eslint-rule4.png)
 
 以 `VariableDeclarator` 对象作为当前的 `node`
 

@@ -4,11 +4,7 @@ date: 2018-01-03 15:28:04
 tags: ['Angular', 'SSR']
 ---
 
-<!--
-![](/uploads/Angular5 服务端渲染实战1.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fn3gisbt0hj31hc0f0wem.jpg)
+![](/uploads/angular5-udao-ssr1.jpg)
 
 <!--more-->
 
@@ -186,11 +182,7 @@ ng build --aot --app 1
 
 运行结果应该如下图所示
 
-<!--
-![](/uploads/Angular5 服务端渲染实战2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fn3i6c6g2lj312k0hajv4.jpg)
+![](/uploads/angular5-udao-ssr2.png)
 
 然后就是创建 `Express.js` 服务, 创建文件: `src/server.ts`
 
@@ -282,21 +274,13 @@ module.exports = {
 
 现在尝试运行 `npm run build`，将会看到如下输出：
 
-<!--
-![](/uploads/Angular5 服务端渲染实战3.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fn3ifqh45lj312g0x444m.jpg)
+![](/uploads/angular5-udao-ssr3.png)
 
 node 运行刚刚打包好的 `node dist/server.js` 文件
 
 打开 `http://localhost:4200/` 会正常显示项目主页面
 
-<!--
-![](/uploads/Angular5 服务端渲染实战4.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fn3ilp4i5yj313o0laain.jpg)
+![](/uploads/angular5-udao-ssr4.png)
 
 从上面的开发者工具可以看出 html 文档是服务端渲染直出的，接下来尝试请求数据试一下。
 
@@ -422,11 +406,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 到这里运行 `npm run build && node dist/server.js` 然后刷新 `http://localhost:4200/detail/add` 到控制台查看 network 如下：
 
-<!--
-![](/uploads/Angular5 服务端渲染实战5.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fn3jhutkshj310r0kqjvm.jpg)
+![](/uploads/angular5-udao-ssr5.png)
 
 发现 XHR 分类里面没有发起任何请求，只有 service-worker 的 cache 命中。
 

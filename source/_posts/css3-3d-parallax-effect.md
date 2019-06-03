@@ -4,11 +4,7 @@ date: 2016-12-20 12:15:00
 tags: ['CSS3', 'JavaScript']
 ---
 
-<!--
-![](/uploads/3D 视差效果.gif)
--->
-
-![](https://wx1.sinaimg.cn/mw690/0060lm7Tly1fqas5y0wiag30ga0dzk7s.gif)
+![](/uploads/css3-3d-parallax-effect1.gif)
 
 前一周敢玩新版PC端上线，其中原创视频封面用的就是上图的效果，下面详细说一下怎么实现
 

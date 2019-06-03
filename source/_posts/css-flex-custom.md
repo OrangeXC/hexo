@@ -4,11 +4,7 @@ date: 2016-10-14 09:59:37
 tags: ['Flex', 'CSS']
 ---
 
-<!--
-![](/uploads/自己动手实现一个 Flex 布局框架1.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k479ue7j30xc0dw44t.jpg)
+![](/uploads/css-flex-custom1.png)
 
 本文作为 Flex 布局进阶，不对基础做详细介绍，关于 Flex 基础知识请到阮一峰老师的[Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
@@ -58,11 +54,7 @@ tags: ['Flex', 'CSS']
 
 效果如下
 
-<!--
-![](/uploads/自己动手实现一个 Flex 布局框架2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k47av1bj32tk0s0q8b.jpg)
+![](/uploads/css-flex-custom2.png)
 
 这里栅格系统将屏幕水平均分成 12 份。通过加对应的 class 调整布局。语法也通俗易懂不过多解释。
 
@@ -84,21 +76,13 @@ tags: ['Flex', 'CSS']
 
 效果如下
 
-<!--
-![](/uploads/自己动手实现一个 Flex 布局框架3.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k47apa9j32rs0jsq5y.jpg)
+![](/uploads/css-flex-custom3.png)
 
 使用 `.col-md-offset-*` 类可以将列向右侧偏移。这些类实际是通过使用 `*` 选择器为当前元素增加了左侧的边距（margin）。例如，`.col-md-offset-4` 类将 `.col-md-4` 元素向右侧偏移了4个列（column）的宽度。
 
 看到这里大家感觉这个方案很完美，既有相应布局又有布局的偏移，但我的项目需求是这样的
 
-<!--
-![](/uploads/自己动手实现一个 Flex 布局框架4.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k47bdb0j30my112q8t.jpg)
+![](/uploads/css-flex-custom4.png)
 
 这里单选按钮和票的名称居左，而票价居右，左右给相同的 `padding` 后，单选按钮和票价分别在左右处于临界状态，我并不知道右侧的票价占几个栅格，也不知道左侧的偏移到底给多少合适（因为票价是变量，可能 10 位数，当然可能性为 0）
 
@@ -130,19 +114,11 @@ What is Angular Material?
 
 效果如下
 
-<!--
-![](/uploads/自己动手实现一个 Flex 布局框架5.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k473mw2j32io0jojtv.jpg)
+![](/uploads/css-flex-custom5.png)
 
 其它属性如下，
 
-<!--
-![](/uploads/自己动手实现一个 Flex 布局框架6.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k479zaaj32ik0u80x5.jpg)
+![](/uploads/css-flex-custom6.jpg)
 
 进入上方链接可以在线感受一下，所有布局效果，这里不一一截图
 
@@ -178,11 +154,7 @@ What is Angular Material?
 
 效果如下
 
-<!--
-![](/uploads/自己动手实现一个 Flex 布局框架7.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k473m0uj32io0e4jtl.jpg)
+![](/uploads/css-flex-custom7.png)
 
 代码简洁易懂，`layout="row"`表示在水平方向分布，最后的 `flex` 不带参数表明自动填充，将不带 `flex` 属性的元素之前的空间填满。
 
@@ -223,11 +195,7 @@ What is Angular Material?
 
 下面给 w3school 的截图，子串匹配属性选择器的语法
 
-<!--
-![](/uploads/自己动手实现一个 Flex 布局框架8.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k475k8sj31vs0bojuj.jpg)
+![](/uploads/css-flex-custom8.png)
 
 简单易懂，下面直接上写好的代码 `layout.scss`
 

@@ -4,11 +4,7 @@ date: 2017-09-20 17:06:50
 tags: ['egg']
 ---
 
-<!--
-![](/uploads/Egg 实现一个 mTime 时光网1.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kj4e3w0j30ih074wel.jpg)
+![](/uploads/eggjs-mtime1.png)
 
 <!-- more -->
 
@@ -133,11 +129,7 @@ exports.mysql = {
 
 在网页的公共头部有城市选择，如下
 
-<!--
-![](uploads/Egg 实现一个 mTime 时光网2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kj4e4caj30en01kglo.jpg)
+![](/uploads/eggjs-mtime2.png)
 
 这里比较坑的是 api 是非官方的 api，只能自己整理城市列表，存到了本地的 init 目录下的 location.json
 
@@ -196,11 +188,7 @@ updated_at: {
 
 到这里我们去 mysql 看一眼
 
-<!--
-![](uploads/Egg 实现一个 mTime 时光网3.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kj4hmk8j30j90i5wiq.jpg)
+![](/uploads/eggjs-mtime3.png)
 
 一切准备工作就绪
 

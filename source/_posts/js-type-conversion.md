@@ -4,11 +4,7 @@ date: 2016-10-31 12:10:43
 tags: JavaScript
 ---
 
-<!--
-![](/uploads/JavaScript 类型转换深度学习.jpg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9klmw62cj32ls10gh0x.jpg)
+![](/uploads/js-type-conversion1.jpg)
 
 JavaScript 是一门弱类型语言，刚接触的时候感觉方便快捷（不需要声明变量类型了耶！），接触久了会发现它带来的麻烦有的时候不在预期之内
 

@@ -4,11 +4,7 @@ date: 2017-03-02 18:50:56
 tags: ['React', 'Redux']
 ---
 
-<!--
-![](/uploads/React 和 Redux 快速开发实战1.jpg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9knkbdvij30rs0cm43q.jpg)
+![](/uploads/react-redux1.jpg)
 
 今天聊一聊 react + redux 环境快速搭建，以及实战一个 TodoList，可能是有史以来最简洁的方法哦，是不是很期待，当时橙子也是很吃惊这样的搭建速度。
 
@@ -43,11 +39,7 @@ npm start
 
 此时开启控制台，找到 Redux 的 tab，会看到如下界面
 
-<!--
-![](/uploads/React 和 Redux 快速开发实战2.jpg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9knkb0m1j314m14sgoe.jpg)
+![](/uploads/react-redux2.jpg)
 
 功能强大，想深入学习的可以看文档，这里我们只关心 Action 和 State 的变化
 

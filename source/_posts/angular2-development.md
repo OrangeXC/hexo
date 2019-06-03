@@ -4,11 +4,7 @@ date: 2016-10-15 10:38:55
 tags: Angular
 ---
 
-<!--
-![](/uploads/Angular2 从搭建环境到开发1.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k65vdndj32d40k80vo.jpg)
+![](/uploads/angular2-development1.png)
 
 Angular2 的发布带来了一阵热议，很久之前就在筹备了，当时的官方答复就是彻底推翻重写，问世之后大家的呼声就是学习成本太高，虽然去掉了 1.x 里的一部分概念，但是加进了 typescript，虽然不强制使用，但是我推荐大家都试一试，毕竟此次改版是谷歌和微软两大家的产物。
 
@@ -110,19 +106,11 @@ ng g component nav
 
 这里我创建了一个 nav 组件。执行成功后，后台会自动部署。我们看一下文件目录有什么改变
 
-<!--
-![](/uploads/Angular2 从搭建环境到开发2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k65v3zhj30uo0ok0ut.jpg)
+![](/uploads/angular2-development2.png)
 
 多了一个叫做 nav 的文件夹，看一看文件目录
 
-<!--
-![](/uploads/Angular2 从搭建环境到开发3.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k65u5tpj30v00ckmya.jpg)
+![](/uploads/angular2-development3.png)
 
 我们发现与项目创建时自带的 app component 目录结构相同，内容也大同小异，大家可以尝试去创建一个自己的组件，组件的样式可以去对应的 css 文件中修改。
 
@@ -200,11 +188,7 @@ export class NavComponent implements OnInit {
 
 此时页面会呈现成这样
 
-<!--
-![](/uploads/Angular2 从搭建环境到开发4.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k65v03qj31s40scjtq.jpg)
+![](/uploads/angular2-development4.png)
 
 好，到这里简单的组件引用已经实现。
 
@@ -307,11 +291,7 @@ Cannot find name 'HammerManager'.
 
 没问题这里手懒不写布局样式了，直接给 br 换行大家方便看些，待页面部署完成后我们会看到以下效果
 
-<!--
-![](/uploads/Angular2 从搭建环境到开发5.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9k65v7tsj31rs1fowj4.jpg)
+![](/uploads/angular2-development5.png)
 
 炫酷的组件，更多组件语法参考上面给的链接，到这里相信大家学习 angular2 的信心倍增，真对已有组件可以完成快速开发，下一步就是大家去 Angular2 官网看其它概念的时候啦，处理数据实现与后端对接。项目上线，大功告成。
 

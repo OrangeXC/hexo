@@ -4,11 +4,7 @@ date: 2016-12-07 19:59:29
 tags: JavaScript
 ---
 
-<!--
-![](/uploads/返回顶部的几种实现.jpg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9jxqo6j7j312m0f00vi.jpg)
+![](/uploads/back-to-top1.jpg)
 
 返回顶部的按钮大家并不陌生，针对长滚动条的信息流页面添加返回顶部的按钮可以给用户良好的体验，而返回顶部的实现也是多种多样，本文分享几个案例并给出评价
 

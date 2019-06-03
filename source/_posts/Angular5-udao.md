@@ -4,11 +4,7 @@ date: 2017-11-02 12:02:56
 tags: Angular
 ---
 
-<!--
-![](/uploads/Angular5 开发一个有道翻译1.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1flblag45saj30jz07j0t8.jpg)
+![](/uploads/angular5-udao1.png)
 
 力争国内 Angular 5 第一篇轮子
 
@@ -47,11 +43,7 @@ cd PROJECT-NAME
 
 这时依赖已经安装完成，执行 `ng -v`，可以看到如下
 
-<!--
-![](/uploads/Angular5 开发一个有道翻译2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1flblag4ibdj30da0dbq5g.jpg)
+![](/uploads/angular5-udao2.png)
 
 ```bash
 ng serve
@@ -71,11 +63,7 @@ udao 词典的公开接口已经废弃，这里拿来的接口是非官方的，
 
 安装时会有依赖版本不符的警告，如下
 
-<!--
-![](/uploads/Angular5 开发一个有道翻译3.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1flblag5z2ej30jz05i77g.jpg)
+![](/uploads/angular5-udao3.png)
 
 但是勉强能用，前面说想找到合适的组件库比较困难，这里讲个小技巧，去 google 搜 `angular [some component]` 基本都是 angular 1.x 的组件，那么根据历史分析组件命名有 `ng-` `ng2-`，到了 4 大家感觉心累所以干脆叫 `ngx-`，搜索直接搜 `ngx-[some component]`。
 

@@ -4,11 +4,7 @@ date: 2018-08-07 10:48:58
 tags: ['Vue']
 ---
 
-<!--
-![](/uploads/Vue 实现热区图1.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fu13zfdsagj30rs0cn74l.jpg)
+![](/uploads/vue-hotzone1.png)
 
 <!--more-->
 
@@ -24,11 +20,7 @@ tags: ['Vue']
 
 > 记得在 PC 端打开，移动端为了方便展示截图在下面，简单描述就是上图中选定热区，下图中点击热区位置会执行相应的操作（图中例子是点击热区直接跳转到我的 Github 主页），展示的虚线线框是为了方便查看区域边界，真实场景会是设计师放上去的按钮或点击区域
 
-<!--
-![](/uploads/Vue 实现热区图2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fu0zgijbj1j30rs105anv.jpg)
+![](/uploads/vue-hotzone2.png)
 
 * 能解决什么问题？
 

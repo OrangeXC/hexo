@@ -1,14 +1,10 @@
 ---
 title: 微信小程序实战
 date: 2017-01-12 10:14:18
-tags: App
+tags: Miniprogram
 ---
 
-<!--
-![](/uploads/微信小程序实战1.jpeg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9jxqj96sj30uy0asjrt.jpg)
+![](/uploads/wechat-miniprogram1.jpeg)
 
 微信小程序经过几个月的内侧，在今年的 1 月 9 日正式上线，在微信通讯录页面就可以搜索你想找的小程序，然后在发现页最底部就会有你曾经浏览过的小程序的入口。
 
@@ -402,17 +398,9 @@ Page({
 
 最后的效果如下
 
-<!--
-![](/uploads/微信小程序实战2.jpeg)
--->
+![](/uploads/wechat-miniprogram2.jpeg)
 
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9jxqp1mmj30hs0vktbi.jpg)
-
-<!--
-![](/uploads/微信小程序实战3.jpeg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9jxqlw7nj30hs0vkgn5.jpg)
+![](/uploads/wechat-miniprogram3.jpeg)
 
 ## 进阶
 

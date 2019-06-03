@@ -4,11 +4,7 @@ date: 2017-05-15 10:38:55
 tags: Vue
 ---
 
-<!--
-![](/uploads/浅谈 vue 项目优化.jpg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9jxqp7rlj30zk0k0ju1.jpg)
+![](/uploads/vue-optimization1.png)
 
 <!-- more -->
 

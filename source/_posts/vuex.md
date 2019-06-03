@@ -1,14 +1,10 @@
 ---
-title: Vuex2 实战
+title: Vuex 实战
 date: 2016-10-28 10:12:43
 tags: ['Vue', 'Vuex']
 ---
 
-<!--
-![](/uploads/Vuex2 实战1.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kpu78w4j31lg09g762.jpg)
+![](/uploads/vuex1.png)
 
 本文就着之前几天的文章 [Vue2 移动端开发环境搭建](http://orangexc.xyz/2016/10/18/Vue2-mobile-terminal-development-environment-to-build/) 继续扩展，上一篇文章有人反馈说讲到最后只有 `rem` 是移动端相关的知识，没错我个人认为除了 `rem` 和 `touch` 事件特殊外其它与 pc 端无异（手机系统版本和浏览器的 bug 放在这里讨论无意义），下面请出今天的大咖 vuex
 
@@ -40,11 +36,7 @@ tags: ['Vue', 'Vuex']
 
 方便大家理解工作流程，先给出官方的配图
 
-<!--
-![](/uploads/Vuex2 实战2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kpu5equj30jh0fbdg5.jpg)
+![](/uploads/vuex2.png)
 
 从左边看 vue components(组件) ->  action（只能通过 dispatch 调用，与此同时可以异步与后端的 API 做交互） -> mutations(只能通过 action 发起 commit 调用，此时开发工具可以监测到数据的流动) -> state （mutations 传递修改过的状态到 state）-> state 自动同步到视图
 

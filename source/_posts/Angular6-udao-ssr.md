@@ -4,11 +4,7 @@ date: 2018-05-10 12:22:47
 tags: ['Angular', 'SSR']
 ---
 
-<!--
-![](/uploads/Angular6 服务端渲染之 udao 终章.png)
--->
-
-![](https://ww1.sinaimg.cn/large/005Yd2Thly1fr64sebe48j31z40zyqdc.jpg)
+![](/uploads/angular6-udao-ssr1.png)
 
 <!--more-->
 

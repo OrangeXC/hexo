@@ -4,11 +4,7 @@ date: 2017-06-06 17:49:56
 tags: Node
 ---
 
-<!--
-![](/uploads/Node 版本管理.jpg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9klmsyawj30t60a03yn.jpg)
+![](/uploads/node-version-management1.jpg)
 
 <!--more-->
 

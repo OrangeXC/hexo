@@ -4,11 +4,7 @@ date: 2016-10-17 10:22:43
 tags: CSS
 ---
 
-<!--
-![](/uploads/CSS 实现 1px 以内的移动1.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kc7v060j31z00j40tv.jpg)
+![](/uploads/css-mobile-1px1.png)
 
 之前的文章说过关于行内元素垂直方向对齐的方案。感兴趣的可以看我的往期文章。在上一篇文章里我们提到了 1px 内的移动问题。本文就一像素内的问题给出解决方案。
 
@@ -100,11 +96,7 @@ transform: translateY(3in);
 
 截图如下
 
-<!--
-![](/uploads/CSS 实现 1px 以内的移动2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kc7zuq0j32wk1fo0xc.jpg)
+![](/uploads/css-mobile-1px2.png)
 
 这里为了更容易观察，我们把布局换成 `inline-block` ，我们发现元素与元素之间存在空隙回去再看一遍代码发现没什么问题，那这段距离是怎么引起的呢？
 
@@ -120,11 +112,7 @@ transform: translateY(3in);
 
 得到最终结果，如下图
 
-<!--
-![](/uploads/CSS 实现 1px 以内的移动3.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9kc80giaj32w81f0n1f.jpg)
+![](/uploads/css-mobile-1px3.png)
 
 这里特地将小块颜色做区分，浏览器视图放大到最大倍数，如果还是看不清的话，推荐大家亲手试一试，
 

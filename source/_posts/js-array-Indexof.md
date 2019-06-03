@@ -4,6 +4,8 @@ date: 2016-10-12 09:38:43
 tags: JavaScript
 ---
 
+![](/uploads/js-array-Indexof1.png)
+
 最近项目遇到一个小问题代码我会简化成小例子展示给大家。
 
 用心看到最后会有收获哈，基础扎实的童鞋可以直接跳到[数组类型使用](http://orangexc.xyz/2016/10/12/IndexOf-in-JavaScript-array/#Array-类型的使用)。

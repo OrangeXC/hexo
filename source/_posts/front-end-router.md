@@ -4,11 +4,7 @@ date: 2016-10-21 19:28:54
 tags: Router
 ---
 
-<!--
-![](/uploads/前端路由的两种实现原理1.jpg)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9jxqtdg7j31jk0lbx2j.jpg)
+![](/uploads/front-end-router1.jpg)
 
 早期的路由都是后端实现的，直接根据 url 来 reload 页面，页面变得越来越复杂服务器端压力变大，随着 ajax 的出现，页面实现非 reload 就能刷新数据，也给前端路由的出现奠定了基础。我们可以通过记录 url 来记录 ajax 的变化，从而实现前端路由。
 
@@ -42,11 +38,7 @@ window.history.pushState(null, null, "https://www.baidu.com/?name=orange");
 
 好，我们观察此时的 url 变成了这样
 
-<!--
-![](/uploads/前端路由的两种实现原理2.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9jxqj7brj30xs03o752.jpg)
+![](/uploads/front-end-router2.png)
 
 我们这里不一一测试，直接给出其它用法，大家自行尝试
 
@@ -75,11 +67,7 @@ Uncaught DOMException: Failed to execute 'pushState' on 'History': A history sta
 
 回到上面例子中，每次改变 url 页面并没有刷新，同样根据上文所述，浏览器会产生历史记录
 
-<!--
-![](/uploads/前端路由的两种实现原理3.png)
--->
-
-![](https://ws1.sinaimg.cn/large/005Yd2Thly1fl9jxqjb1rj31cw03g0td.jpg)
+![](/uploads/front-end-router3.png)
 
 这就是实现页面无刷新情况下改变 url 的前提，下面我们说下第一个参数 **状态对象**
 
